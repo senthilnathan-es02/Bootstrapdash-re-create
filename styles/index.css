@@ -10,26 +10,21 @@
 
 header {
     display: flex;
-    flex-direction: row;
     padding: 20px;
     border-bottom: 1px solid #e8e8e8;
 }
 
 header section img {
-    margin-left: 20px;
-    margin-top: 10px;
+    margin: 10px 0px 0px 20px;
 }
 
 .header-btn {
     display: flex;
-    flex-direction: row;
-
 }
 
 .header-btn h1 {
     font-size: 18px;
-    margin-top: 15px;
-    margin-right: 20px;
+    margin: 15px 20px 0px 0px;
 }
 
 .header-btn button {
@@ -42,9 +37,7 @@ header section img {
 }
 
 .header-link {
-    margin-left: 50px;
-    margin-top: 15px;
-    margin-right: 450px;
+    margin: 15px 450px 0px 50px;
 }
 
 .header-link a {
@@ -57,14 +50,12 @@ header section img {
 
 .first-content {
     display: flex;
-    flex-direction: row;
 
 }
 
 .first-content-img-section {
     width: 840px;
-    margin-top: 40px;
-    margin-left: 50px;
+    margin: 40px 0px 0px 50px ;
 
 }
 
@@ -81,8 +72,7 @@ header section img {
 
 .first-content .first-content-2 {
     width: 200px;
-    margin-left: 150px;
-    margin-top: 50px;
+    margin: 50px 0px 0px 150px ;
     font-size: 16px;
 }
 
@@ -101,7 +91,6 @@ header section img {
 
 .second-content {
     display: flex;
-    flex-direction: row;
     height: 12825px;
     margin-bottom: 60px;
 }
@@ -147,7 +136,6 @@ header section img {
 .second-content-2-1 {
     color: gray;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     font-size: 13px;
     margin-bottom: 10px;
@@ -263,8 +251,7 @@ header section img {
     width: 530px;
     height: 45px;
     border: 1px solid #e8e8e8;
-    margin-top: 5px;
-    margin-bottom: 15px;
+    margin: 5px 0px 15px 0px;
 }
 
 
@@ -273,14 +260,12 @@ header section img {
     width: 530px;
     height: 200px;
     border: 1px solid #e8e8e8;
-    margin-top: 5px;
-    margin-bottom: 15px;
+    margin: 5px 0px 15px 0px;
 }
 
 .form-radio p {
     font-size: 15px;
-    margin-top: 10px;
-    margin-left: 5px;
+    margin: 10px 0px 0px 5px;
 }
 
 .form-btn button {
@@ -305,7 +290,7 @@ header section img {
 
 
 
-/* Mobile Devices (max-width: 768px) */
+/*-------------------------------------------------------- */
 @media screen and (max-width: 768px) {
 
     header {
